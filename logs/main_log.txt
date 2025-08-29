@@ -1,0 +1,83 @@
+[2025-08-29 14:34:57.436787] Connected to 127.0.0.1:5020
+
+===== SENDING RAW MODBUS TCP PACKET =====
+Hex Input: 000100000006010100000001
+Response Packet (Hex): 00010000000401010100
+
+===== DECODED RESPONSE PACKET =====
+Byte 0-1: Transaction ID = 0001
+Byte 2-3: Protocol ID = 0000
+Byte 4-5: Length = 0004
+Byte 6:   Unit ID = 01
+Byte 7:   Function Code = 01
+Byte 8:   Byte Count = 1
+Bit 1 = 0
+Bit 2 = 0
+Bit 3 = 0
+Bit 4 = 0
+Bit 5 = 0
+Bit 6 = 0
+Bit 7 = 0
+Bit 8 = 0
+
+===== ACTIVE UID SCAN (strict_uid=True, strict_echo=True, mbap_len=True) 127.0.0.1:5020 =====
+[UID 1] >>> Echo Request: 000100000006010800001234
+[UID 1] <<< Echo Response: 000100000006010800001234 (RTT=0 ms)
+[UID 1]    UID match: [OK] (1 vs 1)
+[UID 1]    TID match: [OK] (1 vs 1)
+[UID 1]    MBAP LEN: [OK] (declared=6, calc=6)
+[UID 1]    FC==0x08: [OK] (fc=08)
+[UID 1]    Sub==0x0000: [OK] (sub=0000)
+[UID 1]    Echo payload: [OK] (1234 vs 1234)
+[UID 1] >>> DevID Request: 000100000005012b0e0100
+[UID 1] <<< DevID Response: 000100000029012b0e018300000300114d6f64627573205345525645522047554901074d4f44534552560203312e30
+[UID 1]    FC==0x2B & MEI==0x0E: [OK]
+[UID 1]    Device ID captured -> Vendor='Modbus SERVER GUI', Product='MODSERV', Rev='1.0'
+[UID 2] >>> Echo Request: 000200000006020800001234
+[UID 2] <<< Echo Response: 00020000000302800b (RTT=16 ms)
+[UID 2]    Length >= 12: [FAIL] (got 9)
+[UID 3] >>> Echo Request: 000300000006030800001234
+[UID 3] <<< Echo Response: 00030000000303800b (RTT=0 ms)
+[UID 3]    Length >= 12: [FAIL] (got 9)
+[UID 4] >>> Echo Request: 000400000006040800001234
+[UID 4] <<< Echo Response: 00040000000304800b (RTT=0 ms)
+[UID 4]    Length >= 12: [FAIL] (got 9)
+[UID 5] >>> Echo Request: 000500000006050800001234
+[UID 5] <<< Echo Response: 00050000000305800b (RTT=0 ms)
+[UID 5]    Length >= 12: [FAIL] (got 9)
+[UID 6] >>> Echo Request: 000600000006060800001234
+[UID 6] <<< Echo Response: 00060000000306800b (RTT=0 ms)
+[UID 6]    Length >= 12: [FAIL] (got 9)
+[UID 7] >>> Echo Request: 000700000006070800001234
+[UID 7] <<< Echo Response: 00070000000307800b (RTT=15 ms)
+[UID 7]    Length >= 12: [FAIL] (got 9)
+[UID 8] >>> Echo Request: 000800000006080800001234
+[UID 8] <<< Echo Response: 00080000000308800b (RTT=0 ms)
+[UID 8]    Length >= 12: [FAIL] (got 9)
+[UID 9] >>> Echo Request: 000900000006090800001234
+[UID 9] <<< Echo Response: 00090000000309800b (RTT=0 ms)
+[UID 9]    Length >= 12: [FAIL] (got 9)
+[UID 10] >>> Echo Request: 000a000000060a0800001234
+[UID 10] <<< Echo Response: 000a000000030a800b (RTT=0 ms)
+[UID 10]    Length >= 12: [FAIL] (got 9)
+[UID 11] >>> Echo Request: 000b000000060b0800001234
+[UID 11] <<< Echo Response: 000b000000030b800b (RTT=16 ms)
+[UID 11]    Length >= 12: [FAIL] (got 9)
+[UID 12] >>> Echo Request: 000c000000060c0800001234
+[UID 12] <<< Echo Response: 000c000000030c800b (RTT=31 ms)
+[UID 12]    Length >= 12: [FAIL] (got 9)
+[UID 13] >>> Echo Request: 000d000000060d0800001234
+[UID 13] <<< Echo Response: 000d000000030d800b (RTT=16 ms)
+[UID 13]    Length >= 12: [FAIL] (got 9)
+[UID 14] >>> Echo Request: 000e000000060e0800001234
+[UID 14] <<< Echo Response: 000e000000030e800b (RTT=0 ms)
+[UID 14]    Length >= 12: [FAIL] (got 9)
+[UID 15] >>> Echo Request: 000f000000060f0800001234
+[UID 15] <<< Echo Response: 000f000000030f800b (RTT=0 ms)
+[UID 15]    Length >= 12: [FAIL] (got 9)
+[UID 16] >>> Echo Request: 001000000006100800001234
+[UID 16] <<< Echo Response: 00100000000310800b (RTT=0 ms)
+[UID 16]    Length >= 12: [FAIL] (got 9)
+
+--- Device ID fingerprint groups (Active UIDs only) ---
+UID 1 has unique Device ID: Modbus SERVER GUI|MODSERV|1.0
