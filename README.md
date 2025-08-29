@@ -46,12 +46,11 @@ Start the server (default port `5020`):
 ```python3 server_gui.py```
 
 In another terminal, run either the single-host client or the multi-IP scanner:
-code
-```python3 client_gui.py
+```python3 client_gui.py```
 
 or
 
-python3 multi_ip_scanner.py```
+```python3 multi_ip_scanner.py```
 
 Point the client/scanner at `127.0.0.1:5020` (or wherever your server is bound).
 
