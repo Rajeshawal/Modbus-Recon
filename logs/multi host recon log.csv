@@ -1,0 +1,481 @@
+Host,Port,UID,Status,RTT_ms,ResponseHex,Note
+127.0.0.1,5020,1,Active,31,000100000006010800001234,OK
+127.0.0.10,5020,1,Rejected,15,00010000000301800b,Validation failed
+127.0.0.15,5020,1,Rejected,16,00010000000301800b,Validation failed
+127.0.0.5,5020,1,Rejected,47,00010000000301800b,Validation failed
+127.0.0.10,5020,2,Rejected,0,00020000000302800b,Validation failed
+127.0.0.1,5020,2,Rejected,14,00020000000302800b,Validation failed
+127.0.0.15,5020,2,Rejected,14,00020000000302800b,Validation failed
+127.0.0.5,5020,2,Rejected,14,00020000000302800b,Validation failed
+127.0.0.10,5020,3,Rejected,0,00030000000303800b,Validation failed
+127.0.0.1,5020,3,Rejected,16,00030000000303800b,Validation failed
+127.0.0.15,5020,3,Rejected,16,00030000000303800b,Validation failed
+127.0.0.5,5020,3,Rejected,16,00030000000303800b,Validation failed
+127.0.0.10,5020,4,Rejected,14,00040000000304800b,Validation failed
+127.0.0.1,5020,4,Rejected,14,00040000000304800b,Validation failed
+127.0.0.5,5020,4,Rejected,14,00040000000304800b,Validation failed
+127.0.0.15,5020,4,Rejected,14,00040000000304800b,Validation failed
+127.0.0.5,5020,5,Active,0,000500000006050800001234,OK
+127.0.0.10,5020,5,Rejected,16,00050000000305800b,Validation failed
+127.0.0.1,5020,5,Rejected,16,00050000000305800b,Validation failed
+127.0.0.15,5020,5,Rejected,0,00050000000305800b,Validation failed
+127.0.0.15,5020,6,Rejected,0,00060000000306800b,Validation failed
+127.0.0.1,5020,6,Rejected,0,00060000000306800b,Validation failed
+127.0.0.5,5020,6,Rejected,0,00060000000306800b,Validation failed
+127.0.0.10,5020,6,Rejected,14,00060000000306800b,Validation failed
+127.0.0.15,5020,7,Rejected,0,00070000000307800b,Validation failed
+127.0.0.1,5020,7,Rejected,16,00070000000307800b,Validation failed
+127.0.0.5,5020,7,Rejected,16,00070000000307800b,Validation failed
+127.0.0.10,5020,7,Rejected,16,00070000000307800b,Validation failed
+127.0.0.15,5020,8,Rejected,0,00080000000308800b,Validation failed
+127.0.0.1,5020,8,Rejected,0,00080000000308800b,Validation failed
+127.0.0.10,5020,8,Rejected,0,00080000000308800b,Validation failed
+127.0.0.5,5020,8,Rejected,0,00080000000308800b,Validation failed
+127.0.0.15,5020,9,Rejected,0,00090000000309800b,Validation failed
+127.0.0.1,5020,9,Rejected,0,00090000000309800b,Validation failed
+127.0.0.10,5020,9,Rejected,16,00090000000309800b,Validation failed
+127.0.0.5,5020,9,Rejected,16,00090000000309800b,Validation failed
+127.0.0.15,5020,10,Rejected,0,000a000000030a800b,Validation failed
+127.0.0.10,5020,10,Active,16,000a000000060a0800001234,OK
+127.0.0.5,5020,10,Rejected,16,000a000000030a800b,Validation failed
+127.0.0.1,5020,10,Rejected,16,000a000000030a800b,Validation failed
+127.0.0.15,5020,11,Rejected,0,000b000000030b800b,Validation failed
+127.0.0.10,5020,11,Rejected,0,000b000000030b800b,Validation failed
+127.0.0.5,5020,11,Rejected,0,000b000000030b800b,Validation failed
+127.0.0.1,5020,11,Rejected,31,000b000000030b800b,Validation failed
+127.0.0.15,5020,12,Rejected,0,000c000000030c800b,Validation failed
+127.0.0.10,5020,12,Rejected,0,000c000000030c800b,Validation failed
+127.0.0.5,5020,12,Rejected,0,000c000000030c800b,Validation failed
+127.0.0.1,5020,12,Rejected,15,000c000000030c800b,Validation failed
+127.0.0.15,5020,13,Rejected,0,000d000000030d800b,Validation failed
+127.0.0.10,5020,13,Rejected,0,000d000000030d800b,Validation failed
+127.0.0.5,5020,13,Rejected,0,000d000000030d800b,Validation failed
+127.0.0.1,5020,13,Rejected,16,000d000000030d800b,Validation failed
+127.0.0.15,5020,14,Rejected,0,000e000000030e800b,Validation failed
+127.0.0.10,5020,14,Rejected,0,000e000000030e800b,Validation failed
+127.0.0.5,5020,14,Rejected,0,000e000000030e800b,Validation failed
+127.0.0.1,5020,14,Rejected,0,000e000000030e800b,Validation failed
+127.0.0.10,5020,15,Rejected,0,000f000000030f800b,Validation failed
+127.0.0.15,5020,15,Active,32,000f000000060f0800001234,OK
+127.0.0.5,5020,15,Rejected,15,000f000000030f800b,Validation failed
+127.0.0.1,5020,15,Rejected,0,000f000000030f800b,Validation failed
+127.0.0.10,5020,16,Rejected,16,00100000000310800b,Validation failed
+127.0.0.15,5020,16,Rejected,0,00100000000310800b,Validation failed
+127.0.0.5,5020,16,Rejected,0,00100000000310800b,Validation failed
+127.0.0.1,5020,16,Rejected,0,00100000000310800b,Validation failed
+127.0.0.9,5020,1,Error,,,conn_refused
+127.0.0.8,5020,1,Error,,,conn_refused
+127.0.0.3,5020,1,Error,,,conn_refused
+127.0.0.13,5020,1,Error,,,conn_refused
+127.0.0.11,5020,1,Error,,,conn_refused
+127.0.0.2,5020,1,Error,,,conn_refused
+127.0.0.14,5020,1,Error,,,conn_refused
+127.0.0.6,5020,1,Error,,,conn_refused
+127.0.0.4,5020,1,Error,,,conn_refused
+127.0.0.7,5020,1,Error,,,conn_refused
+127.0.0.16,5020,1,Error,,,conn_refused
+127.0.0.12,5020,1,Error,,,conn_refused
+127.0.0.17,5020,1,Error,,,conn_refused
+127.0.0.19,5020,1,Error,,,conn_refused
+127.0.0.18,5020,1,Error,,,conn_refused
+127.0.0.20,5020,1,Error,,,conn_refused
+127.0.0.2,5020,2,Error,,,conn_refused
+127.0.0.3,5020,2,Error,,,conn_refused
+127.0.0.6,5020,2,Error,,,conn_refused
+127.0.0.11,5020,2,Error,,,conn_refused
+127.0.0.4,5020,2,Error,,,conn_refused
+127.0.0.9,5020,2,Error,,,conn_refused
+127.0.0.16,5020,2,Error,,,conn_refused
+127.0.0.12,5020,2,Error,,,conn_refused
+127.0.0.14,5020,2,Error,,,conn_refused
+127.0.0.13,5020,2,Error,,,conn_refused
+127.0.0.7,5020,2,Error,,,conn_refused
+127.0.0.8,5020,2,Error,,,conn_refused
+127.0.0.17,5020,2,Error,,,conn_refused
+127.0.0.18,5020,2,Error,,,conn_refused
+127.0.0.19,5020,2,Error,,,conn_refused
+127.0.0.20,5020,2,Error,,,conn_refused
+127.0.0.11,5020,3,Error,,,conn_refused
+127.0.0.4,5020,3,Error,,,conn_refused
+127.0.0.9,5020,3,Error,,,conn_refused
+127.0.0.6,5020,3,Error,,,conn_refused
+127.0.0.16,5020,3,Error,,,conn_refused
+127.0.0.12,5020,3,Error,,,conn_refused
+127.0.0.8,5020,3,Error,,,conn_refused
+127.0.0.13,5020,3,Error,,,conn_refused
+127.0.0.2,5020,3,Error,,,conn_refused
+127.0.0.7,5020,3,Error,,,conn_refused
+127.0.0.14,5020,3,Error,,,conn_refused
+127.0.0.3,5020,3,Error,,,conn_refused
+127.0.0.17,5020,3,Error,,,conn_refused
+127.0.0.18,5020,3,Error,,,conn_refused
+127.0.0.19,5020,3,Error,,,conn_refused
+127.0.0.20,5020,3,Error,,,conn_refused
+127.0.0.3,5020,4,Error,,,conn_refused
+127.0.0.7,5020,4,Error,,,conn_refused
+127.0.0.8,5020,4,Error,,,conn_refused
+127.0.0.9,5020,4,Error,,,conn_refused
+127.0.0.13,5020,4,Error,,,conn_refused
+127.0.0.6,5020,4,Error,,,conn_refused
+127.0.0.4,5020,4,Error,,,conn_refused
+127.0.0.12,5020,4,Error,,,conn_refused
+127.0.0.11,5020,4,Error,,,conn_refused
+127.0.0.16,5020,4,Error,,,conn_refused
+127.0.0.2,5020,4,Error,,,conn_refused
+127.0.0.14,5020,4,Error,,,conn_refused
+127.0.0.17,5020,4,Error,,,conn_refused
+127.0.0.19,5020,4,Error,,,conn_refused
+127.0.0.18,5020,4,Error,,,conn_refused
+127.0.0.20,5020,4,Error,,,conn_refused
+127.0.0.9,5020,5,Error,,,conn_refused
+127.0.0.13,5020,5,Error,,,conn_refused
+127.0.0.3,5020,5,Error,,,conn_refused
+127.0.0.7,5020,5,Error,,,conn_refused
+127.0.0.11,5020,5,Error,,,conn_refused
+127.0.0.6,5020,5,Error,,,conn_refused
+127.0.0.8,5020,5,Error,,,conn_refused
+127.0.0.12,5020,5,Error,,,conn_refused
+127.0.0.4,5020,5,Error,,,conn_refused
+127.0.0.16,5020,5,Error,,,conn_refused
+127.0.0.14,5020,5,Error,,,conn_refused
+127.0.0.2,5020,5,Error,,,conn_refused
+127.0.0.17,5020,5,Error,,,conn_refused
+127.0.0.18,5020,5,Error,,,conn_refused
+127.0.0.19,5020,5,Error,,,conn_refused
+127.0.0.20,5020,5,Error,,,conn_refused
+127.0.0.8,5020,6,Error,,,conn_refused
+127.0.0.3,5020,6,Error,,,conn_refused
+127.0.0.13,5020,6,Error,,,conn_refused
+127.0.0.9,5020,6,Error,,,conn_refused
+127.0.0.7,5020,6,Error,,,conn_refused
+127.0.0.12,5020,6,Error,,,conn_refused
+127.0.0.6,5020,6,Error,,,conn_refused
+127.0.0.11,5020,6,Error,,,conn_refused
+127.0.0.14,5020,6,Error,,,conn_refused
+127.0.0.16,5020,6,Error,,,conn_refused
+127.0.0.4,5020,6,Error,,,conn_refused
+127.0.0.2,5020,6,Error,,,conn_refused
+127.0.0.17,5020,6,Error,,,conn_refused
+127.0.0.18,5020,6,Error,,,conn_refused
+127.0.0.19,5020,6,Error,,,conn_refused
+127.0.0.20,5020,6,Error,,,conn_refused
+127.0.0.13,5020,7,Error,,,conn_refused
+127.0.0.11,5020,7,Error,,,conn_refused
+127.0.0.9,5020,7,Error,,,conn_refused
+127.0.0.6,5020,7,Error,,,conn_refused
+127.0.0.8,5020,7,Error,,,conn_refused
+127.0.0.2,5020,7,Error,,,conn_refused
+127.0.0.4,5020,7,Error,,,conn_refused
+127.0.0.3,5020,7,Error,,,conn_refused
+127.0.0.16,5020,7,Error,,,conn_refused
+127.0.0.12,5020,7,Error,,,conn_refused
+127.0.0.14,5020,7,Error,,,conn_refused
+127.0.0.7,5020,7,Error,,,conn_refused
+127.0.0.18,5020,7,Error,,,conn_refused
+127.0.0.17,5020,7,Error,,,conn_refused
+127.0.0.19,5020,7,Error,,,conn_refused
+127.0.0.20,5020,7,Error,,,conn_refused
+127.0.0.13,5020,8,Error,,,conn_refused
+127.0.0.14,5020,8,Error,,,conn_refused
+127.0.0.7,5020,8,Error,,,conn_refused
+127.0.0.8,5020,8,Error,,,conn_refused
+127.0.0.6,5020,8,Error,,,conn_refused
+127.0.0.3,5020,8,Error,,,conn_refused
+127.0.0.11,5020,8,Error,,,conn_refused
+127.0.0.9,5020,8,Error,,,conn_refused
+127.0.0.12,5020,8,Error,,,conn_refused
+127.0.0.16,5020,8,Error,,,conn_refused
+127.0.0.2,5020,8,Error,,,conn_refused
+127.0.0.4,5020,8,Error,,,conn_refused
+127.0.0.18,5020,8,Error,,,conn_refused
+127.0.0.17,5020,8,Error,,,conn_refused
+127.0.0.19,5020,8,Error,,,conn_refused
+127.0.0.20,5020,8,Error,,,conn_refused
+127.0.0.13,5020,9,Error,,,conn_refused
+127.0.0.7,5020,9,Error,,,conn_refused
+127.0.0.2,5020,9,Error,,,conn_refused
+127.0.0.8,5020,9,Error,,,conn_refused
+127.0.0.12,5020,9,Error,,,conn_refused
+127.0.0.14,5020,9,Error,,,conn_refused
+127.0.0.16,5020,9,Error,,,conn_refused
+127.0.0.11,5020,9,Error,,,conn_refused
+127.0.0.9,5020,9,Error,,,conn_refused
+127.0.0.3,5020,9,Error,,,conn_refused
+127.0.0.6,5020,9,Error,,,conn_refused
+127.0.0.4,5020,9,Error,,,conn_refused
+127.0.0.17,5020,9,Error,,,conn_refused
+127.0.0.18,5020,9,Error,,,conn_refused
+127.0.0.19,5020,9,Error,,,conn_refused
+127.0.0.20,5020,9,Error,,,conn_refused
+127.0.0.13,5020,10,Error,,,conn_refused
+127.0.0.8,5020,10,Error,,,conn_refused
+127.0.0.14,5020,10,Error,,,conn_refused
+127.0.0.4,5020,10,Error,,,conn_refused
+127.0.0.11,5020,10,Error,,,conn_refused
+127.0.0.7,5020,10,Error,,,conn_refused
+127.0.0.6,5020,10,Error,,,conn_refused
+127.0.0.2,5020,10,Error,,,conn_refused
+127.0.0.16,5020,10,Error,,,conn_refused
+127.0.0.12,5020,10,Error,,,conn_refused
+127.0.0.9,5020,10,Error,,,conn_refused
+127.0.0.3,5020,10,Error,,,conn_refused
+127.0.0.17,5020,10,Error,,,conn_refused
+127.0.0.18,5020,10,Error,,,conn_refused
+127.0.0.19,5020,10,Error,,,conn_refused
+127.0.0.20,5020,10,Error,,,conn_refused
+127.0.0.13,5020,11,Error,,,conn_refused
+127.0.0.8,5020,11,Error,,,conn_refused
+127.0.0.2,5020,11,Error,,,conn_refused
+127.0.0.6,5020,11,Error,,,conn_refused
+127.0.0.7,5020,11,Error,,,conn_refused
+127.0.0.14,5020,11,Error,,,conn_refused
+127.0.0.16,5020,11,Error,,,conn_refused
+127.0.0.9,5020,11,Error,,,conn_refused
+127.0.0.3,5020,11,Error,,,conn_refused
+127.0.0.11,5020,11,Error,,,conn_refused
+127.0.0.12,5020,11,Error,,,conn_refused
+127.0.0.4,5020,11,Error,,,conn_refused
+127.0.0.17,5020,11,Error,,,conn_refused
+127.0.0.18,5020,11,Error,,,conn_refused
+127.0.0.19,5020,11,Error,,,conn_refused
+127.0.0.20,5020,11,Error,,,conn_refused
+127.0.0.13,5020,12,Error,,,conn_refused
+127.0.0.7,5020,12,Error,,,conn_refused
+127.0.0.11,5020,12,Error,,,conn_refused
+127.0.0.4,5020,12,Error,,,conn_refused
+127.0.0.8,5020,12,Error,,,conn_refused
+127.0.0.14,5020,12,Error,,,conn_refused
+127.0.0.6,5020,12,Error,,,conn_refused
+127.0.0.3,5020,12,Error,,,conn_refused
+127.0.0.12,5020,12,Error,,,conn_refused
+127.0.0.16,5020,12,Error,,,conn_refused
+127.0.0.9,5020,12,Error,,,conn_refused
+127.0.0.2,5020,12,Error,,,conn_refused
+127.0.0.17,5020,12,Error,,,conn_refused
+127.0.0.18,5020,12,Error,,,conn_refused
+127.0.0.19,5020,12,Error,,,conn_refused
+127.0.0.20,5020,12,Error,,,conn_refused
+127.0.0.13,5020,13,Error,,,conn_refused
+127.0.0.9,5020,13,Error,,,conn_refused
+127.0.0.14,5020,13,Error,,,conn_refused
+127.0.0.11,5020,13,Error,,,conn_refused
+127.0.0.3,5020,13,Error,,,conn_refused
+127.0.0.4,5020,13,Error,,,conn_refused
+127.0.0.7,5020,13,Error,,,conn_refused
+127.0.0.16,5020,13,Error,,,conn_refused
+127.0.0.8,5020,13,Error,,,conn_refused
+127.0.0.12,5020,13,Error,,,conn_refused
+127.0.0.6,5020,13,Error,,,conn_refused
+127.0.0.2,5020,13,Error,,,conn_refused
+127.0.0.17,5020,13,Error,,,conn_refused
+127.0.0.19,5020,13,Error,,,conn_refused
+127.0.0.18,5020,13,Error,,,conn_refused
+127.0.0.20,5020,13,Error,,,conn_refused
+127.0.0.13,5020,14,Error,,,conn_refused
+127.0.0.3,5020,14,Error,,,conn_refused
+127.0.0.11,5020,14,Error,,,conn_refused
+127.0.0.4,5020,14,Error,,,conn_refused
+127.0.0.6,5020,14,Error,,,conn_refused
+127.0.0.8,5020,14,Error,,,conn_refused
+127.0.0.14,5020,14,Error,,,conn_refused
+127.0.0.7,5020,14,Error,,,conn_refused
+127.0.0.16,5020,14,Error,,,conn_refused
+127.0.0.12,5020,14,Error,,,conn_refused
+127.0.0.2,5020,14,Error,,,conn_refused
+127.0.0.9,5020,14,Error,,,conn_refused
+127.0.0.17,5020,14,Error,,,conn_refused
+127.0.0.19,5020,14,Error,,,conn_refused
+127.0.0.18,5020,14,Error,,,conn_refused
+127.0.0.20,5020,14,Error,,,conn_refused
+127.0.0.13,5020,15,Error,,,conn_refused
+127.0.0.14,5020,15,Error,,,conn_refused
+127.0.0.16,5020,15,Error,,,conn_refused
+127.0.0.12,5020,15,Error,,,conn_refused
+127.0.0.3,5020,15,Error,,,conn_refused
+127.0.0.7,5020,15,Error,,,conn_refused
+127.0.0.4,5020,15,Error,,,conn_refused
+127.0.0.9,5020,15,Error,,,conn_refused
+127.0.0.2,5020,15,Error,,,conn_refused
+127.0.0.11,5020,15,Error,,,conn_refused
+127.0.0.8,5020,15,Error,,,conn_refused
+127.0.0.6,5020,15,Error,,,conn_refused
+127.0.0.17,5020,15,Error,,,conn_refused
+127.0.0.18,5020,15,Error,,,conn_refused
+127.0.0.19,5020,15,Error,,,conn_refused
+127.0.0.20,5020,15,Error,,,conn_refused
+127.0.0.13,5020,16,Error,,,conn_refused
+127.0.0.7,5020,16,Error,,,conn_refused
+127.0.0.16,5020,16,Error,,,conn_refused
+127.0.0.3,5020,16,Error,,,conn_refused
+127.0.0.8,5020,16,Error,,,conn_refused
+127.0.0.6,5020,16,Error,,,conn_refused
+127.0.0.12,5020,16,Error,,,conn_refused
+127.0.0.9,5020,16,Error,,,conn_refused
+127.0.0.2,5020,16,Error,,,conn_refused
+127.0.0.4,5020,16,Error,,,conn_refused
+127.0.0.11,5020,16,Error,,,conn_refused
+127.0.0.14,5020,16,Error,,,conn_refused
+127.0.0.17,5020,16,Error,,,conn_refused
+127.0.0.18,5020,16,Error,,,conn_refused
+127.0.0.19,5020,16,Error,,,conn_refused
+127.0.0.20,5020,16,Error,,,conn_refused
+127.0.0.21,5020,1,Error,,,conn_refused
+127.0.0.22,5020,1,Error,,,conn_refused
+127.0.0.23,5020,1,Error,,,conn_refused
+127.0.0.24,5020,1,Error,,,conn_refused
+127.0.0.29,5020,1,Error,,,conn_refused
+127.0.0.28,5020,1,Error,,,conn_refused
+127.0.0.27,5020,1,Error,,,conn_refused
+127.0.0.30,5020,1,Error,,,conn_refused
+127.0.0.25,5020,1,Error,,,conn_refused
+127.0.0.26,5020,1,Error,,,conn_refused
+127.0.0.21,5020,2,Error,,,conn_refused
+127.0.0.22,5020,2,Error,,,conn_refused
+127.0.0.24,5020,2,Error,,,conn_refused
+127.0.0.23,5020,2,Error,,,conn_refused
+127.0.0.26,5020,2,Error,,,conn_refused
+127.0.0.25,5020,2,Error,,,conn_refused
+127.0.0.27,5020,2,Error,,,conn_refused
+127.0.0.30,5020,2,Error,,,conn_refused
+127.0.0.28,5020,2,Error,,,conn_refused
+127.0.0.29,5020,2,Error,,,conn_refused
+127.0.0.21,5020,3,Error,,,conn_refused
+127.0.0.22,5020,3,Error,,,conn_refused
+127.0.0.24,5020,3,Error,,,conn_refused
+127.0.0.28,5020,3,Error,,,conn_refused
+127.0.0.25,5020,3,Error,,,conn_refused
+127.0.0.23,5020,3,Error,,,conn_refused
+127.0.0.27,5020,3,Error,,,conn_refused
+127.0.0.26,5020,3,Error,,,conn_refused
+127.0.0.29,5020,3,Error,,,conn_refused
+127.0.0.30,5020,3,Error,,,conn_refused
+127.0.0.21,5020,4,Error,,,conn_refused
+127.0.0.22,5020,4,Error,,,conn_refused
+127.0.0.25,5020,4,Error,,,conn_refused
+127.0.0.27,5020,4,Error,,,conn_refused
+127.0.0.23,5020,4,Error,,,conn_refused
+127.0.0.28,5020,4,Error,,,conn_refused
+127.0.0.29,5020,4,Error,,,conn_refused
+127.0.0.24,5020,4,Error,,,conn_refused
+127.0.0.30,5020,4,Error,,,conn_refused
+127.0.0.26,5020,4,Error,,,conn_refused
+127.0.0.21,5020,5,Error,,,conn_refused
+127.0.0.22,5020,5,Error,,,conn_refused
+127.0.0.25,5020,5,Error,,,conn_refused
+127.0.0.29,5020,5,Error,,,conn_refused
+127.0.0.28,5020,5,Error,,,conn_refused
+127.0.0.27,5020,5,Error,,,conn_refused
+127.0.0.30,5020,5,Error,,,conn_refused
+127.0.0.23,5020,5,Error,,,conn_refused
+127.0.0.24,5020,5,Error,,,conn_refused
+127.0.0.26,5020,5,Error,,,conn_refused
+127.0.0.21,5020,6,Error,,,conn_refused
+127.0.0.22,5020,6,Error,,,conn_refused
+127.0.0.29,5020,6,Error,,,conn_refused
+127.0.0.25,5020,6,Error,,,conn_refused
+127.0.0.30,5020,6,Error,,,conn_refused
+127.0.0.26,5020,6,Error,,,conn_refused
+127.0.0.27,5020,6,Error,,,conn_refused
+127.0.0.24,5020,6,Error,,,conn_refused
+127.0.0.28,5020,6,Error,,,conn_refused
+127.0.0.23,5020,6,Error,,,conn_refused
+127.0.0.21,5020,7,Error,,,conn_refused
+127.0.0.22,5020,7,Error,,,conn_refused
+127.0.0.28,5020,7,Error,,,conn_refused
+127.0.0.25,5020,7,Error,,,conn_refused
+127.0.0.30,5020,7,Error,,,conn_refused
+127.0.0.23,5020,7,Error,,,conn_refused
+127.0.0.27,5020,7,Error,,,conn_refused
+127.0.0.24,5020,7,Error,,,conn_refused
+127.0.0.29,5020,7,Error,,,conn_refused
+127.0.0.26,5020,7,Error,,,conn_refused
+127.0.0.21,5020,8,Error,,,conn_refused
+127.0.0.22,5020,8,Error,,,conn_refused
+127.0.0.28,5020,8,Error,,,conn_refused
+127.0.0.24,5020,8,Error,,,conn_refused
+127.0.0.29,5020,8,Error,,,conn_refused
+127.0.0.23,5020,8,Error,,,conn_refused
+127.0.0.27,5020,8,Error,,,conn_refused
+127.0.0.26,5020,8,Error,,,conn_refused
+127.0.0.30,5020,8,Error,,,conn_refused
+127.0.0.25,5020,8,Error,,,conn_refused
+127.0.0.21,5020,9,Error,,,conn_refused
+127.0.0.22,5020,9,Error,,,conn_refused
+127.0.0.28,5020,9,Error,,,conn_refused
+127.0.0.24,5020,9,Error,,,conn_refused
+127.0.0.29,5020,9,Error,,,conn_refused
+127.0.0.25,5020,9,Error,,,conn_refused
+127.0.0.23,5020,9,Error,,,conn_refused
+127.0.0.26,5020,9,Error,,,conn_refused
+127.0.0.30,5020,9,Error,,,conn_refused
+127.0.0.27,5020,9,Error,,,conn_refused
+127.0.0.21,5020,10,Error,,,conn_refused
+127.0.0.22,5020,10,Error,,,conn_refused
+127.0.0.29,5020,10,Error,,,conn_refused
+127.0.0.24,5020,10,Error,,,conn_refused
+127.0.0.28,5020,10,Error,,,conn_refused
+127.0.0.30,5020,10,Error,,,conn_refused
+127.0.0.26,5020,10,Error,,,conn_refused
+127.0.0.27,5020,10,Error,,,conn_refused
+127.0.0.23,5020,10,Error,,,conn_refused
+127.0.0.25,5020,10,Error,,,conn_refused
+127.0.0.21,5020,11,Error,,,conn_refused
+127.0.0.22,5020,11,Error,,,conn_refused
+127.0.0.28,5020,11,Error,,,conn_refused
+127.0.0.24,5020,11,Error,,,conn_refused
+127.0.0.25,5020,11,Error,,,conn_refused
+127.0.0.26,5020,11,Error,,,conn_refused
+127.0.0.30,5020,11,Error,,,conn_refused
+127.0.0.27,5020,11,Error,,,conn_refused
+127.0.0.29,5020,11,Error,,,conn_refused
+127.0.0.23,5020,11,Error,,,conn_refused
+127.0.0.21,5020,12,Error,,,conn_refused
+127.0.0.22,5020,12,Error,,,conn_refused
+127.0.0.24,5020,12,Error,,,conn_refused
+127.0.0.28,5020,12,Error,,,conn_refused
+127.0.0.27,5020,12,Error,,,conn_refused
+127.0.0.30,5020,12,Error,,,conn_refused
+127.0.0.23,5020,12,Error,,,conn_refused
+127.0.0.25,5020,12,Error,,,conn_refused
+127.0.0.26,5020,12,Error,,,conn_refused
+127.0.0.29,5020,12,Error,,,conn_refused
+127.0.0.21,5020,13,Error,,,conn_refused
+127.0.0.22,5020,13,Error,,,conn_refused
+127.0.0.23,5020,13,Error,,,conn_refused
+127.0.0.24,5020,13,Error,,,conn_refused
+127.0.0.30,5020,13,Error,,,conn_refused
+127.0.0.25,5020,13,Error,,,conn_refused
+127.0.0.26,5020,13,Error,,,conn_refused
+127.0.0.28,5020,13,Error,,,conn_refused
+127.0.0.27,5020,13,Error,,,conn_refused
+127.0.0.29,5020,13,Error,,,conn_refused
+127.0.0.21,5020,14,Error,,,conn_refused
+127.0.0.22,5020,14,Error,,,conn_refused
+127.0.0.25,5020,14,Error,,,conn_refused
+127.0.0.23,5020,14,Error,,,conn_refused
+127.0.0.24,5020,14,Error,,,conn_refused
+127.0.0.26,5020,14,Error,,,conn_refused
+127.0.0.30,5020,14,Error,,,conn_refused
+127.0.0.27,5020,14,Error,,,conn_refused
+127.0.0.28,5020,14,Error,,,conn_refused
+127.0.0.29,5020,14,Error,,,conn_refused
+127.0.0.21,5020,15,Error,,,conn_refused
+127.0.0.22,5020,15,Error,,,conn_refused
+127.0.0.24,5020,15,Error,,,conn_refused
+127.0.0.26,5020,15,Error,,,conn_refused
+127.0.0.27,5020,15,Error,,,conn_refused
+127.0.0.23,5020,15,Error,,,conn_refused
+127.0.0.28,5020,15,Error,,,conn_refused
+127.0.0.30,5020,15,Error,,,conn_refused
+127.0.0.25,5020,15,Error,,,conn_refused
+127.0.0.29,5020,15,Error,,,conn_refused
+127.0.0.21,5020,16,Error,,,conn_refused
+127.0.0.22,5020,16,Error,,,conn_refused
+127.0.0.24,5020,16,Error,,,conn_refused
+127.0.0.28,5020,16,Error,,,conn_refused
+127.0.0.26,5020,16,Error,,,conn_refused
+127.0.0.27,5020,16,Error,,,conn_refused
+127.0.0.30,5020,16,Error,,,conn_refused
+127.0.0.23,5020,16,Error,,,conn_refused
+127.0.0.25,5020,16,Error,,,conn_refused
+127.0.0.29,5020,16,Error,,,conn_refused

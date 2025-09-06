@@ -21,6 +21,7 @@ from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import logging, logging.handlers
 from typing import Dict, Tuple, List, Any
+import sys, subprocess  # <-- needed for "Open Log Folder"
 
 APP_TITLE = "Multi-IP Modbus TCP Scanner & Crafter"
 DEFAULT_PORT = 502
@@ -383,7 +384,6 @@ def recon_job(host: str, port: int, uid_start: int, uid_end: int, echo_payload_h
             tstate["stats"]["errors"] += 1
             row = (host, port, str(uid), "Error", "", "", "conn_refused")
             ui_queue.put(("recon_row", row))
-            # continue to next UID
         except socket.gaierror as e:
             tstate["stats"]["errors"] += 1
             row = (host, port, str(uid), "Error", "", "", f"dns:{e}")
@@ -418,14 +418,59 @@ def ui_log(msg: str):
     output_text.see(tk.END)
     output_text.configure(state="disabled")
 
-# Clear Log button
+# ---- New buttons: Save Log, Copy Log, Open Log Folder, Clear Log
+btn_log_tools = tk.Frame(log_section)
+btn_log_tools.pack(anchor="e", pady=(4, 0))
+
+def get_operator_log_text() -> str:
+    return output_text.get("1.0", tk.END)
+
 def clear_operator_log():
     output_text.configure(state="normal")
     output_text.delete("1.0", tk.END)
     output_text.configure(state="disabled")
     ui_log("[log cleared]")
 
-btn_log_tools = tk.Frame(log_section); btn_log_tools.pack(anchor="e", pady=(4,0))
+def save_operator_log_as():
+    path = filedialog.asksaveasfilename(
+        title="Save Operator Log As...",
+        defaultextension=".txt",
+        filetypes=[("Text Files", "*.txt"), ("All Files", "*.*")]
+    )
+    if not path:
+        return
+    try:
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(get_operator_log_text())
+        ui_log(f"[saved] Operator Log exported to {path}")
+    except Exception as e:
+        messagebox.showerror("Save Log", f"Could not save log:\n{e}")
+
+def copy_operator_log():
+    try:
+        root.clipboard_clear()
+        root.clipboard_append(get_operator_log_text())
+        ui_log("[copied] Operator Log copied to clipboard")
+    except Exception as e:
+        messagebox.showerror("Copy Log", f"Could not copy log:\n{e}")
+
+def open_log_folder():
+    # Uses current scan folder if available; otherwise opens base scans directory
+    base = scan_folder or (output_dir_var.get().strip() or get_scan_base_dir())
+    try:
+        if os.name == "nt":
+            os.startfile(base)  # type: ignore[attr-defined]
+        elif sys.platform == "darwin":
+            subprocess.call(["open", base])
+        else:
+            subprocess.call(["xdg-open", base])
+        ui_log(f"[open] Log folder: {base}")
+    except Exception as e:
+        messagebox.showerror("Open Folder", f"Could not open folder:\n{e}")
+
+tk.Button(btn_log_tools, text="Save Log As…", command=save_operator_log_as).pack(side=tk.LEFT, padx=(0, 6))
+tk.Button(btn_log_tools, text="Copy Log", command=copy_operator_log).pack(side=tk.LEFT, padx=(0, 6))
+tk.Button(btn_log_tools, text="Open Log Folder", command=open_log_folder).pack(side=tk.LEFT, padx=(0, 6))
 tk.Button(btn_log_tools, text="Clear Log", command=clear_operator_log).pack(side=tk.LEFT)
 
 # Output folder chooser + display

@@ -1,0 +1,103 @@
+Ready. Add targets (CIDR, range, or host:port), then Start Scan.
+Note: If no server is running, you should still see Error/No Reply rows.
+Scan folder: C:/Users/rajes/OneDrive/Desktop/NIW/Github/Modbus/Modbus TCP Toolkit\scan_2025-08-29_19-41-04_b3e95768
+Starting scan on 30 target(s), UID 1-16, timeout 3.0s.
+[-:-] scan_start
+[127.0.0.1:5020] host_scan_start
+[127.0.0.2:5020] host_scan_start
+[127.0.0.3:5020] host_scan_start
+[127.0.0.4:5020] host_scan_start
+[127.0.0.5:5020] host_scan_start
+[127.0.0.6:5020] host_scan_start
+[127.0.0.7:5020] host_scan_start
+[127.0.0.8:5020] host_scan_start
+[127.0.0.9:5020] host_scan_start
+[127.0.0.10:5020] host_scan_start
+[127.0.0.11:5020] host_scan_start
+[127.0.0.12:5020] host_scan_start
+[127.0.0.13:5020] host_scan_start
+[127.0.0.14:5020] host_scan_start
+[127.0.0.15:5020] host_scan_start
+[127.0.0.16:5020] host_scan_start
+[127.0.0.1:5020] DeviceID: Modbus SERVER GUI|MODSERV|1.0 (UIDs [1])
+[127.0.0.5:5020] DeviceID: Modbus SERVER GUI|MODSERV|1.0 (UIDs [5])
+[127.0.0.10:5020] DeviceID: Modbus SERVER GUI|MODSERV|1.0 (UIDs [10])
+[127.0.0.15:5020] DeviceID: Modbus SERVER GUI|MODSERV|1.0 (UIDs [15])
+[127.0.0.10:5020] host_scan_end
+[127.0.0.17:5020] host_scan_start
+[127.0.0.15:5020] host_scan_end
+[127.0.0.18:5020] host_scan_start
+[127.0.0.5:5020] host_scan_end
+[127.0.0.19:5020] host_scan_start
+[127.0.0.1:5020] host_scan_end
+[127.0.0.20:5020] host_scan_start
+[127.0.0.13:5020] host_scan_end
+[127.0.0.21:5020] host_scan_start
+[127.0.0.7:5020] host_scan_end
+[127.0.0.22:5020] host_scan_start
+[127.0.0.16:5020] host_scan_end
+[127.0.0.23:5020] host_scan_start
+[127.0.0.3:5020] host_scan_end
+[127.0.0.24:5020] host_scan_start
+[127.0.0.8:5020] host_scan_end
+[127.0.0.25:5020] host_scan_start
+[127.0.0.6:5020] host_scan_end
+[127.0.0.26:5020] host_scan_start
+[127.0.0.12:5020] host_scan_end
+[127.0.0.27:5020] host_scan_start
+[127.0.0.9:5020] host_scan_end
+[127.0.0.28:5020] host_scan_start
+[127.0.0.2:5020] host_scan_end
+[127.0.0.29:5020] host_scan_start
+[127.0.0.4:5020] host_scan_end
+[127.0.0.30:5020] host_scan_start
+[127.0.0.11:5020] host_scan_end
+[127.0.0.14:5020] host_scan_end
+[127.0.0.17:5020] host_scan_end
+[127.0.0.18:5020] host_scan_end
+[127.0.0.19:5020] host_scan_end
+[127.0.0.20:5020] host_scan_end
+[127.0.0.21:5020] host_scan_end
+[127.0.0.22:5020] host_scan_end
+[127.0.0.24:5020] host_scan_end
+[127.0.0.28:5020] host_scan_end
+[127.0.0.26:5020] host_scan_end
+[127.0.0.27:5020] host_scan_end
+[127.0.0.30:5020] host_scan_end
+[127.0.0.23:5020] host_scan_end
+[127.0.0.25:5020] host_scan_end
+[127.0.0.29:5020] host_scan_end
+Recon CSV saved: C:/Users/rajes/OneDrive/Desktop/NIW/Github/Modbus/Modbus TCP Toolkit\scan_2025-08-29_19-41-04_b3e95768\recon_all.csv
+[127.0.0.1:5020] Summary: {'sent': 16, 'recv': 16, 'timeouts': 0, 'errors': 0, 'active': 1, 'rejected': 15}
+[127.0.0.2:5020] Summary: {'sent': 0, 'recv': 0, 'timeouts': 0, 'errors': 16, 'active': 0, 'rejected': 0}
+[127.0.0.3:5020] Summary: {'sent': 0, 'recv': 0, 'timeouts': 0, 'errors': 16, 'active': 0, 'rejected': 0}
+[127.0.0.4:5020] Summary: {'sent': 0, 'recv': 0, 'timeouts': 0, 'errors': 16, 'active': 0, 'rejected': 0}
+[127.0.0.5:5020] Summary: {'sent': 16, 'recv': 16, 'timeouts': 0, 'errors': 0, 'active': 1, 'rejected': 15}
+[127.0.0.6:5020] Summary: {'sent': 0, 'recv': 0, 'timeouts': 0, 'errors': 16, 'active': 0, 'rejected': 0}
+[127.0.0.7:5020] Summary: {'sent': 0, 'recv': 0, 'timeouts': 0, 'errors': 16, 'active': 0, 'rejected': 0}
+[127.0.0.8:5020] Summary: {'sent': 0, 'recv': 0, 'timeouts': 0, 'errors': 16, 'active': 0, 'rejected': 0}
+[127.0.0.9:5020] Summary: {'sent': 0, 'recv': 0, 'timeouts': 0, 'errors': 16, 'active': 0, 'rejected': 0}
+[127.0.0.10:5020] Summary: {'sent': 16, 'recv': 16, 'timeouts': 0, 'errors': 0, 'active': 1, 'rejected': 15}
+[127.0.0.11:5020] Summary: {'sent': 0, 'recv': 0, 'timeouts': 0, 'errors': 16, 'active': 0, 'rejected': 0}
+[127.0.0.12:5020] Summary: {'sent': 0, 'recv': 0, 'timeouts': 0, 'errors': 16, 'active': 0, 'rejected': 0}
+[127.0.0.13:5020] Summary: {'sent': 0, 'recv': 0, 'timeouts': 0, 'errors': 16, 'active': 0, 'rejected': 0}
+[127.0.0.14:5020] Summary: {'sent': 0, 'recv': 0, 'timeouts': 0, 'errors': 16, 'active': 0, 'rejected': 0}
+[127.0.0.15:5020] Summary: {'sent': 16, 'recv': 16, 'timeouts': 0, 'errors': 0, 'active': 1, 'rejected': 15}
+[127.0.0.16:5020] Summary: {'sent': 0, 'recv': 0, 'timeouts': 0, 'errors': 16, 'active': 0, 'rejected': 0}
+[127.0.0.17:5020] Summary: {'sent': 0, 'recv': 0, 'timeouts': 0, 'errors': 16, 'active': 0, 'rejected': 0}
+[127.0.0.18:5020] Summary: {'sent': 0, 'recv': 0, 'timeouts': 0, 'errors': 16, 'active': 0, 'rejected': 0}
+[127.0.0.19:5020] Summary: {'sent': 0, 'recv': 0, 'timeouts': 0, 'errors': 16, 'active': 0, 'rejected': 0}
+[127.0.0.20:5020] Summary: {'sent': 0, 'recv': 0, 'timeouts': 0, 'errors': 16, 'active': 0, 'rejected': 0}
+[127.0.0.21:5020] Summary: {'sent': 0, 'recv': 0, 'timeouts': 0, 'errors': 16, 'active': 0, 'rejected': 0}
+[127.0.0.22:5020] Summary: {'sent': 0, 'recv': 0, 'timeouts': 0, 'errors': 16, 'active': 0, 'rejected': 0}
+[127.0.0.23:5020] Summary: {'sent': 0, 'recv': 0, 'timeouts': 0, 'errors': 16, 'active': 0, 'rejected': 0}
+[127.0.0.24:5020] Summary: {'sent': 0, 'recv': 0, 'timeouts': 0, 'errors': 16, 'active': 0, 'rejected': 0}
+[127.0.0.25:5020] Summary: {'sent': 0, 'recv': 0, 'timeouts': 0, 'errors': 16, 'active': 0, 'rejected': 0}
+[127.0.0.26:5020] Summary: {'sent': 0, 'recv': 0, 'timeouts': 0, 'errors': 16, 'active': 0, 'rejected': 0}
+[127.0.0.27:5020] Summary: {'sent': 0, 'recv': 0, 'timeouts': 0, 'errors': 16, 'active': 0, 'rejected': 0}
+[127.0.0.28:5020] Summary: {'sent': 0, 'recv': 0, 'timeouts': 0, 'errors': 16, 'active': 0, 'rejected': 0}
+[127.0.0.29:5020] Summary: {'sent': 0, 'recv': 0, 'timeouts': 0, 'errors': 16, 'active': 0, 'rejected': 0}
+[127.0.0.30:5020] Summary: {'sent': 0, 'recv': 0, 'timeouts': 0, 'errors': 16, 'active': 0, 'rejected': 0}
+[-:-] scan_end
+[copied] Operator Log copied to clipboard
+
